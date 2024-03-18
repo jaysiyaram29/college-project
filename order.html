@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Bags Shopping List</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-    <div class="shopping-list">
-        <h1>vegetables</h1>
-        <div class="order">
-          <button>Create Order</button>
-          <div class="item">
-            <p>big brocoli</p>
-            <p>$3.00</p>
-          </div>
-          <div class="item">
-            <p>kimchi cabbage</p>
-            <p>$5.00</p>
-          </div>
-          <div class="item">
-            <p>spring onion</p>
-            <p>$3.00</p>
-          </div>
-          <div class="total">
-            <p>TOTAL: $11.00</p>
-          </div>
-        </div>
-      </div>
+<body >
+  	<h1>Bags Shopping List</h1>
+	<form>
+		<button type="submit">Create Order</button>
+		<button type="button">Delete</button>
+	</form>
+	<table>
+		<thead>
+			<tr>
+				<th>Item</th>
+				<th>Item #</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Compete Track Tote</td>
+				<td>24-WB02</td>
+				<td>$32.00</td>
+			</tr>
+			<tr>
+				<td>Fusion Backpack</td>
+				<td>24-MB02</td>
+				<td>$59.00</td>
+			</tr>
+			<tr>
+				<td>Savvy Shoulder Tote</td>
+				<td>24-WB05</td>
+				<td>$32.00</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2">Total</td>
+				<td>$123.00</td>
+			</tr>
+		</tfoot>
+	</table>
 </body>
 </html>
